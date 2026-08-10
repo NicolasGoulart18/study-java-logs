@@ -2,14 +2,22 @@ package ArraysMultidimensionais;
 
 public class AulaArrayMultidimensionais01 {
     static void main(String[] args) {
-         int [][]dias = new int [3][3];
-         dias [0][0]=12;
-         dias [0][1]=18;
-         dias [0][2]=14;
+         int [][]dias = new int [3][4];
+         //Atribuição de todos arrays
+        dias [0][0]=1;
+        dias [0][1]=2;
+        dias [0][2]=3;
+        dias [0][3]=4;
 
-        dias [1][0]=2;
-        dias [1][1]=8;
-        dias [1][2]=4;
+        dias [1][0]=5;
+        dias [1][1]=6;
+        dias [1][2]=7;
+        dias [1][3]=8;
+
+        dias [2][0]=9;
+        dias [2][1]=10;
+        dias [2][2]=11;
+        dias [2][3]=12;
 
         // A forma de navegar ele navega o array por meio de for aninhados
 
