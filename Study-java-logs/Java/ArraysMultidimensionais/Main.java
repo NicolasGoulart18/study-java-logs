@@ -7,7 +7,6 @@ public class Main {
          dias [0][1]=18;
          dias [0][2]=14;
 
-
         dias [1][0]=2;
         dias [1][1]=8;
         dias [1][2]=4;
@@ -21,5 +20,15 @@ public class Main {
                 System.out.println(dias[i][j]);
             }
         }
+        System.out.println("-------------------------");
+
+        //Usando for-each ele vai pegar cada uma das posições e criar uma variavel de referencia
+        // Só criar uma variavel inteira de referencia array
+        for(int []arrBase:dias){
+            for (int num: arrBase){
+                System.out.println(num);
+            }
+        }
+
     }
 }
