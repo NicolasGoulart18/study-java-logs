@@ -1,6 +1,6 @@
 package ArraysMultidimensionais;
 
-public class Main {
+public class AulaArrayMultidimensionais01 {
     static void main(String[] args) {
          int [][]dias = new int [3][3];
          dias [0][0]=12;
