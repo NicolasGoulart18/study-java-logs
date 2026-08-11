@@ -6,7 +6,15 @@ public class Main {
     static void main(String[] args) {
 
         Carro carro1 = new Carro();
+
         Carro carro2 = new Carro();
+
+        /*
+            Eu posso fazer essa referencia de objeto:
+                carro1 =carro2;
+                ai o carro 1 começa a buscar os atributos do endereço de memoria do carro2
+                Mas só pode ser feito com objetos do mesmo tipo, nn posso fazer carro1=professor;
+         */
 
         carro1.nome="Chevrolet Onix";
         carro1.modelo="Onix";
