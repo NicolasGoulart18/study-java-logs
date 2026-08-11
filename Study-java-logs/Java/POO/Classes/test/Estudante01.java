@@ -21,6 +21,10 @@ public class Estudante01 {
         estudante.nome = "Sasuke";
         estudante.idade = 17;
         estudante.sexo = 'M';
+
+        /*
+            Quando eu faço estudante. -> Minha variable de referencia vai chamar o atributo
+         */
         System.out.println(estudante.nome);
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
