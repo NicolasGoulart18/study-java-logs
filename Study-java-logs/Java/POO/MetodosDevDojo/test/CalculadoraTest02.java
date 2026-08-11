@@ -7,5 +7,7 @@ public class CalculadoraTest02 {
         Calculadora calculadora = new Calculadora();
         // Na hora que eu vou passar os parametros, ele é chamado de argumento!
         calculadora.multiplicaDoisNumero(12,33);
+        System.out.println(calculadora.divideDoisNumeros(10,5));
+
         }
 }
