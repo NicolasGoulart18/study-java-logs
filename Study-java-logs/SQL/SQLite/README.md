@@ -52,4 +52,11 @@
 ### DATA ATUAL E HORA ATUAL:
       SELECT DATETIME('now');
 ### DATA E HORA EXATAS A 1 ANO NO FUTURO:
-        SELECT DATETIME('now', '+1 year');  
+        SELECT DATETIME('now', '+1 year');
+# CURRENT_TIMESTAMP
+    Funcionalidade: CURRENT_TIMESTAMP é uma função de conveniência que retorna a data e hora
+    atuais no formato 'YYYY-MM-DD HH:MM:SS'. É equivalente a usar DATETIME('now').
+    Sintaxe Básica: CURRENT_TIMESTAMP
+    Exemplo de Uso: 
+### Para obter o timestamp atual:
+      SELECT CURRENT_TIMESTAMP;
