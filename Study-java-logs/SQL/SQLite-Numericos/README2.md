@@ -66,3 +66,26 @@ SELECT ABS(-5);
 ```
 
 **Resultado:** `5`
+## HEX
+
+Converte um valor para sua representação hexadecimal.
+
+**Sintaxe:**
+
+```sql
+HEX(valor)
+```
+
+**Exemplo:**
+
+```sql
+SELECT HEX('hello');
+```
+
+**Resultado:**
+
+```text
+68656C6C6F
+```
+
+> Útil para trabalhar com dados que utilizam representação hexadecimal.
