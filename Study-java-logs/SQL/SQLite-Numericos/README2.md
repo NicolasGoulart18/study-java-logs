@@ -32,4 +32,20 @@ SELECT SQRT(16);
 ```
 
 **Resultado:** `4`
-git 
+## RANDOM
+
+Gera um número inteiro aleatório.
+
+**Sintaxe:**
+
+```sql
+RANDOM()
+```
+
+**Exemplo:**
+
+```sql
+SELECT RANDOM();
+```
+
+> O valor gerado pode ser positivo ou negativo.
