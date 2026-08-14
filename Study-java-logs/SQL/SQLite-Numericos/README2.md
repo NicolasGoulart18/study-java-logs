@@ -49,3 +49,20 @@ SELECT RANDOM();
 ```
 
 > O valor gerado pode ser positivo ou negativo.
+## ABS
+
+Retorna o valor absoluto de um número, removendo seu sinal.
+
+**Sintaxe:**
+
+```sql
+ABS(numero)
+```
+
+**Exemplo:**
+
+```sql
+SELECT ABS(-5);
+```
+
+**Resultado:** `5`
