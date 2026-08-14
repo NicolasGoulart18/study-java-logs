@@ -15,3 +15,21 @@ SELECT POWER(2, 3);
 ```
 
 **Resultado:** `8`
+## SQRT
+
+Retorna a raiz quadrada de um número.
+
+**Sintaxe:**
+
+```sql
+SQRT(numero)
+```
+
+**Exemplo:**
+
+```sql
+SELECT SQRT(16);
+```
+
+**Resultado:** `4`
+git 
