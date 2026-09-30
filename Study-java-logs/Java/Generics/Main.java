@@ -5,5 +5,7 @@ public class Main {
 
         // Pratique Generics aqui.
 
+
+        //aqui e onde vai ficar os generics
     }
 }
